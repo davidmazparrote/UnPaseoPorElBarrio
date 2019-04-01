@@ -1,0 +1,63 @@
+h1{
+    
+    font-family: Roboto,sans-serif;
+    color: rgba(245, 250, 239, 0.877);
+    margin-left: 3cm;
+    font-style: italic;
+    
+    
+}
+
+
+
+
+
+
+
+body{ 
+    background-image: url(planetas/espacio.jpg);
+}
+
+.sistem{
+
+        margin-block-start: 1cm;
+        margin-left: 5cm; 
+        padding: 6px 12px;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.42857143;
+        color: rgb(255, 241, 241);
+        background-color: #1f5e96;
+        border-color: #2b85d4;
+        display: inline-block;
+        padding: 8px 16px;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        cursor: pointer;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        
+        cursor: pointer;
+        overflow: visible;
+      
+        
+    
+               
+            }
+          
+            .sistem:hover{
+                
+             
+                background-color: #74b2e9;
+                
+
+}

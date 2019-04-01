@@ -1,0 +1,64 @@
+body{
+
+    background-image:url(planetas/espacio.jpg);
+    background-size: 95cm;
+    background-repeat: no-repeat;
+    
+    
+}
+
+div{
+block-size: 1cm;
+  
+
+}
+
+
+
+img{
+    display: flex;
+ 
+    margin-block-start: 0.5cm;
+    block-size: 1cm;
+    width: 95px;
+    height: 95px;
+        
+}
+
+img:hover{
+    
+    transition-duration: 2s;
+    /*width: 200px;
+    height: 150px;*/
+    width: 150px;
+    height: 150px;
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
+    
+}
+
+h2{
+color: black;
+
+}
+
+#info{
+    display: none;
+    height: 500px;
+    width: 1000px;
+    background-image: url('PlanetasInfo/sol.jpg');
+    position: absolute;
+    z-index: 1000;
+    top: calc( 50% - 225px );
+    left: calc( 50% - 347px );
+    background-repeat: no-repeat;
+    
+    
+
+    
+}
+/*
+@media screen and () {
+    #info {
+    }
+}*/
